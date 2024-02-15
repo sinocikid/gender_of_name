@@ -25,7 +25,7 @@ def main():
     # get gender and probability
     gender, probability = get_gender(name)
 
-    # 输出结果
+    # Result
     print(f"Gender：{gender}")
     print(f"Possibility：{probability}")
 
