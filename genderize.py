@@ -44,6 +44,6 @@ def predict_gender():
     return render_template_string(HTML_TEMPLATE, gender=gender, probability=probability)
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=8080)
+    app.run(host='0.0.0.0', port=5000)
     # You can change port number
 
