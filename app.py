@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-# HTML模板
+# HTML template
 HTML_TEMPLATE = '''
 <!DOCTYPE html>
 <html>
@@ -26,7 +26,7 @@ HTML_TEMPLATE = '''
 
 def get_gender(name):
     """
-    根据姓名预测性别
+    Predict gender based on name
     """
     url = "https://api.genderize.io/?name=" + name
     response = requests.get(url)
@@ -45,4 +45,5 @@ def predict_gender():
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8080)
+    # You can change port number
 
