@@ -10,7 +10,7 @@ Follow these steps to install and run the project:
 
 1. Clone the repository to your local machine:
 ```
-clone https://github.com/sinocikid/gender_of_name.git
+git clone https://github.com/sinocikid/gender_of_name.git
 cd gender_of_name
 ```
 2. (Optional) Create and activate a virtual environment:
