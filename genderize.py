@@ -2,13 +2,13 @@ import requests
 
 def get_gender(name):
     """
-    根据姓名预测性别
+    Predict gender based on name
 
     Args:
-        name: 英文姓名
+        name: First Name
 
     Returns:
-        性别和概率
+        Gender and Possibility
     """
 
     url = "https://api.genderize.io/?name=" + name
@@ -19,10 +19,10 @@ def get_gender(name):
 
 
 def main():
-    # 输入姓名
+    # input name
     name = input("Please enter First Name：")
 
-    # 获取性别和概率
+    # get gender and probability
     gender, probability = get_gender(name)
 
     # 输出结果
